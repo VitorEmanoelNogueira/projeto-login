@@ -91,6 +91,10 @@ div.campo > input{
     transform: translateY(-11px);
 }
 
+div.campo > input:focus-within{
+    background-color: white;
+}
+
 div.campo label{
     display: none;
 }
